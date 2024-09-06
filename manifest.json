@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Watch Later Extension",
+    "version": "1.0",
+    "description": "Save YouTube videos and blogs to watch later.",
+    "permissions": [
+        "storage",
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
